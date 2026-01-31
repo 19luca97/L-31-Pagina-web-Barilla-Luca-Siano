@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Barilla – Report di Sostenibilità 2024</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="header">
+  <div class="topbar">
+    <span>Barilla Group · Sustainability Hub 2024</span>
+  </div>
+
+  <nav class="navbar container">
+    <img src="assets/logo-barilla-blu.png" class="logo" alt="Logo Barilla">
+
+    <div class="hamburger" onclick="toggleMenu()">
+      <span></span><span></span><span></span>
+    </div>
+
+    <ul id="menu" class="nav-links">
+      <li><a href="#azienda">Azienda</a></li>
+      <li><a href="#contesto">Contesto</a></li>
+      <li><a href="#pilastri">Strategia ESG</a></li>
+      <li><a href="#azioni">Azioni 2024</a></li>
+      <li><a href="#kpi">KPI</a></li>
+      <li><a href="#download">Report</a></li>
+    </ul>
+  </nav>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-inner container fade-up">
+    <h1>Sostenibilità 2024</h1>
+    <p>Il percorso di Barilla verso un futuro più responsabile</p>
+
+    <svg class="svg-underline" width="180" height="6">
+      <rect width="180" height="6" class="line"></rect>
+    </svg>
+  </div>
+</section>
+
+<!-- AZIENDA -->
+<section id="azienda" class="section fade-up">
+  <div class="container">
+    <h2>Chi è Barilla</h2>
+
+    <svg class="svg-underline" width="140" height="6">
+      <rect width="140" height="6" class="line"></rect>
+    </svg>
+
+    <p>
+      Fondata a Parma nel 1877, Barilla è oggi uno dei principali gruppi alimentari al mondo,
+      presente in oltre <strong>100 Paesi</strong>.
+    </p>
+
+    <p>
+      L’azienda mette al centro qualità, benessere, sostenibilità e responsabilità sociale,
+      promuovendo un modello produttivo rispettoso dell’ambiente e delle comunità agricole.
+    </p>
+
+    <ul class="clean-list">
+      <li>29 stabilimenti produttivi globali</li>
+      <li>Oltre 8.700 dipendenti</li>
+      <li>Filiere complete di grano duro, tenero, pomodoro e basilico</li>
+      <li>Investimenti continui in energia green e processi innovativi</li>
+    </ul>
+  </div>
+</section>
+
+<!-- CONTESTO -->
+<section id="contesto" class="section-lightblue fade-up">
+  <div class="container">
+    <h2>Il contesto in cui opera Barilla</h2>
+
+    <svg class="svg-underline" width="140" height="6">
+      <rect width="140" height="6" class="line"></rect>
+    </svg>
+
+    <div class="two-cols">
+      <div>
+        <p>
+          Barilla opera in uno scenario globale complesso, influenzato da cambiamenti climatici,
+          volatilità delle materie prime e crescente richiesta di prodotti sostenibili.
+        </p>
+
+        <p>
+          La sostenibilità rappresenta per Barilla un driver competitivo e un pilastro strategico
+          per le filiere del grano, del pomodoro, del basilico e delle materie prime chiave.
+        </p>
+      </div>
+
+      <img src="assets/filiere-barilla.jpg" class="side-img fade-right" alt="Filiere Barilla">
+    </div>
+  </div>
+</section>
+
+<!-- PILASTRI ESG -->
+<section id="pilastri" class="section fade-up">
+  <div class="container">
+    <h2>La strategia ESG del Gruppo</h2>
+
+    <svg class="svg-underline" width="140" height="6">
+      <rect width="140" height="6" class="line"></rect>
+    </svg>
+
+    <p>
+      La strategia di sostenibilità si fonda su 4 pilastri principali,
+      in linea con gli Obiettivi ONU 2030 e gli standard GRI.
+    </p>
+
+    <div class="grid">
+
+      <div class="card-img">
+        <img src="assets/prodotti.jpg" alt="">
+        <div class="card-content">
+          <h3>Prodotti</h3>
+          <p>Nutrizione, qualità, sicurezza alimentare e trasparenza.</p>
+        </div>
+      </div>
+
+      <div class="card-img">
+        <img src="assets/persone.jpg" alt="">
+        <div class="card-content">
+          <h3>Persone</h3>
+          <p>Diversità, formazione, inclusione e sicurezza.</p>
+        </div>
+      </div>
+
+      <div class="card-img">
+        <img src="assets/filiere.jpg" alt="">
+        <div class="card-content">
+          <h3>Filiere</h3>
+          <p>Agricoltura rigenerativa e approvvigionamento responsabile.</p>
+        </div>
+      </div>
+
+      <div class="card-img">
+        <img src="assets/clima.jpg" alt="">
+        <div class="card-content">
+          <h3>Clima</h3>
+          <p>Decarbonizzazione, acqua, energia rinnovabile.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- AZIONI 2024 -->
+<section id="azioni" class="section fade-up">
+  <div class="container">
+    <h2>Azioni e risultati 2024</h2>
+
+    <svg class="svg-underline" width="160" height="6">
+      <rect width="160" height="6" class="line"></rect>
+    </svg>
+
+    <!-- BLOCCO 1 -->
+    <div class="two-cols">
+      <div>
+        <h3>🌾 Agricoltura rigenerativa</h3>
+        <p>
+          Coinvolti oltre <strong>9.000 agricoltori</strong> nelle filiere sostenibili del grano
+          e delle materie prime strategiche.
+        </p>
+      </div>
+      <img src="assets/agricoltura.jpg" class="side-img" alt="Agricoltura rigenerativa">
+    </div>
+
+    <!-- BLOCCO 2 -->
+    <div class="two-cols reverse-mobile">
+      <img src="assets/packaging.jpg" class="side-img" alt="">
+      <div>
+        <h3>📦 Packaging Circolare</h3>
+        <p>
+          Il <strong>99,8%</strong> del packaging è riciclabile. Rimossa completamente la finestra plastica dalla pasta.
+        </p>
+      </div>
+    </div>
+
+    <!-- BLOCCO 3 -->
+    <div class="two-cols">
+      <div>
+        <h3>💧 Acqua ed Energia</h3>
+        <p>
+          +164% acqua riciclata negli stabilimenti in zone a stress idrico.
+        </p>
+      </div>
+      <img src="assets/acqua.jpg" class="side-img" alt="">
+    </div>
+
+  </div>
+</section>
+
+<!-- KPI -->
+<section id="kpi" class="section-lightblue fade-up">
+  <div class="container">
+    <h2>KPI 2024</h2>
+
+    <svg class="svg-underline" width="140" height="6">
+      <rect width="140" height="6" class="line"></rect>
+    </svg>
+
+    <p>Principali indicatori del Report 2024.</p>
+
+    <div class="kpi-grid">
+
+      <div class="kpi-box">
+        <h3>Packaging riciclabile</h3>
+        <div class="bar"><div class="bar-fill" style="--value: 99.8%;"></div></div>
+        <strong>99,8%</strong>
+      </div>
+
+      <div class="kpi-box">
+        <h3>Acqua riciclata</h3>
+        <div class="bar"><div class="bar-fill" style="--value: 164%;"></div></div>
+        <strong>+164%</strong>
+      </div>
+
+      <div class="kpi-box">
+        <h3>Riduzione CO₂</h3>
+        <div class="bar"><div class="bar-fill" style="--value: 3.5%;"></div></div>
+        <strong>-3,5%</strong>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ROADMAP -->
+<section id="roadmap" class="section-blue fade-up">
+  <div class="container">
+    <h2 class="white">Roadmap verso il 2030</h2>
+
+    <svg class="svg-underline white-line" width="160" height="6">
+      <rect width="160" height="6" class="line"></rect>
+    </svg>
+
+    <p class="white">
+      Le principali tappe della strategia ambientale del Gruppo.
+    </p>
+
+    <div class="roadmap">
+
+      <div class="white-box">
+        <div class="roadmap-year">2025</div>
+        Riciclo completo negli stabilimenti in zone a stress idrico.
+      </div>
+
+      <div class="white-box">
+        <div class="roadmap-year">2027</div>
+        100% energia elettrica acquistata da fonti rinnovabili.
+      </div>
+
+      <div class="white-box">
+        <div class="roadmap-year">2030</div>
+        -30% emissioni di Scope 1-2 sul 2020.
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- GRAFICO -->
+<section id="grafico" class="section fade-up">
+  <div class="container">
+    <h2>Avanzamento verso gli obiettivi 2030</h2>
+
+    <svg class="svg-underline" width="180" height="6">
+      <rect width="180" height="6" class="line"></rect>
+    </svg>
+
+    <p>
+      Le barre indicano i progressi rispetto ai target 2030.
+    </p>
+
+    <div class="progress-chart">
+
+      <div class="progress-row">
+        <span class="label">Riduzione CO₂</span>
+        <div class="progress-bar"><div class="progress-fill" style="--value: 45%;"></div></div>
+        <span class="value">45%</span>
+      </div>
+
+      <div class="progress-row">
+        <span class="label">Energia rinnovabile</span>
+        <div class="progress-bar"><div class="progress-fill" style="--value: 62%;"></div></div>
+        <span class="value">62%</span>
+      </div>
+
+      <div class="progress-row">
+        <span class="label">Packaging riciclabile</span>
+        <div class="progress-bar"><div class="progress-fill" style="--value: 99.8%;"></div></div>
+        <span class="value">99,8%</span>
+      </div>
+
+      <div class="progress-row">
+        <span class="label">Filiere rigenerative</span>
+        <div class="progress-bar"><div class="progress-fill" style="--value: 72%;"></div></div>
+        <span class="value">72%</span>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- DOWNLOAD -->
+<section id="download" class="section-darkblue fade-up">
+  <div class="container">
+    <h2 class="white">Scarica il Report</h2>
+
+    <svg class="svg-underline white-line" width="200" height="6">
+      <rect width="200" height="6" class="line"></rect>
+    </svg>
+
+    <p class="white">
+      Il <strong>Rapporto di Sostenibilità 2024</strong> contiene tabelle, KPI,
+      roadmap e validazioni indipendenti GRI.
+    </p>
+
+    <a class="btn white-btn"
+       href="https://sustainabilityreport.barillagroup.com/pdf/2024_barilla_group_rapporto_sostenibilita_ita_interattivo.pdf"
+       download>
+      ⬇️ Scarica il Report completo (PDF)
+    </a>
+  </div>
+</section>
+
+<footer class="footer">
+  <p>© Pagina realizzata a scopo didattico da Luca Siano Matr.0312400495 </p>
+</footer>
+
+<script>
+function toggleMenu() {
+  document.getElementById("menu").classList.toggle("open");
+  document.querySelector(".hamburger").classList.toggle("active");
+}
+
+const reveals = document.querySelectorAll(".fade-up, .fade-left, .fade-right");
+function reveal() {
+  const wh = window.innerHeight;
+  reveals.forEach(el => {
+    if (el.getBoundingClientRect().top < wh - 80)
+      el.classList.add("active");
+  });
+}
+window.addEventListener("scroll", reveal);
+reveal();
+</script>
+
+</body>
+</html>
